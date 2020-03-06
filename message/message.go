@@ -76,7 +76,7 @@ type fbmsgExt struct {
 }
 
 func (e *fbmsgExt) Name() string {
-	return "github.com/alivraison/chatbot/fbmessage"
+	return "github.com/alivraison/chatbot/message"
 }
 
 func (e *fbmsgExt) Setup(s fnext.ExtServer) error {
