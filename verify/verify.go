@@ -16,7 +16,7 @@ type fbwebhookExt struct {
 }
 
 func (e *fbwebhookExt) Name() string {
-	return "github.com/alivraison/chatbot/fbverify"
+	return "github.com/alivraison/fbchatbot/verify"
 }
 
 // get /webhook url hard coded for FB
